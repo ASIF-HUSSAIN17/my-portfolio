@@ -4,14 +4,18 @@ const projects = [
   {
     title: "Education Website",
     description:
-      "Personal education website built with React & Tailwind CSS.",
+      "Personal education website built with React & Tailwind CSS for college submission. Built for Jamia Millia Islamia project showcase.",
+    client: "Jamia Millia Islamia",
+    price: "₹0 (College Project)",
     image: "/edu.jpg",
     link: "https://mohd-shamail.github.io/Xm--courseMail",
   },
   {
     title: "Learnsy Website",
     description:
-      "An e-learning platform offering interactive lessons, quizzes, and course materials for students.",
+      "An e-learning platform offering interactive lessons, quizzes, and course materials for students. Built as a freelancing project for Mr. Rajesh Mehta from Pune.",
+    client: "Rajesh Mehta, Pune",
+    price: "₹9,500",
     image:
       "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
     link: "https://learnsy-rose.vercel.app/",
@@ -19,49 +23,63 @@ const projects = [
   {
     title: "Solara Beauty Products",
     description:
-      "A modern beauty e-commerce website showcasing skincare and cosmetics products with clean UI & smooth UX.",
+      "A modern beauty e-commerce website showcasing skincare and cosmetics products with clean UI & smooth UX. Developed for Ms. Priya Sharma, Delhi as a freelance project.",
+    client: "Priya Sharma, Delhi",
+    price: "₹8,000",
     image: "/50.jpg",
     link: "https://solara-indol.vercel.app/",
   },
   {
     title: "Clothing Store",
     description:
-      "An e-commerce clothing website with modern design, product catalog & checkout features.",
+      "An e-commerce clothing website with modern design, product catalog & checkout features. Built for Aman Verma, Mumbai as a freelancer.",
+    client: "Aman Verma, Mumbai",
+    price: "₹7,500",
     image: "/cloth.jpg",
     link: "https://clothing-two-sigma.vercel.app/",
   },
   {
     title: "Study Abroad Website",
     description:
-      "A website to help students explore overseas study options, courses, and admissions guidance.",
+      "A website to help students explore overseas study options, courses, and admissions guidance. Created for A2Z Education Consultancy, Hyderabad.",
+    client: "A2Z Education Consultancy, Hyderabad",
+    price: "₹9,000",
     image: "/stu.jpg",
     link: "https://study-web-ashy.vercel.app/",
   },
   {
     title: "Pizza Website",
     description:
-      "A delicious pizza ordering website showcasing menu, deals, and online ordering features.",
+      "A pizza ordering website showcasing menu, deals, and online ordering. Designed for SliceHub Pizzeria, Lucknow.",
+    client: "SliceHub Pizzeria, Lucknow",
+    price: "₹6,000",
     image: "/pizza.jpg",
     link: "https://pizza-liart-eight.vercel.app/",
   },
   {
     title: "Traveling Website",
     description:
-      "A travel & tourism website showcasing destinations, tours, and booking features.",
+      "A travel & tourism website showcasing destinations and booking features. Freelance project for Mr. Arjun Patel, Ahmedabad.",
+    client: "Arjun Patel, Ahmedabad",
+    price: "₹9,800",
     image: "/travel.jpg",
     link: "https://travelling-black.vercel.app/",
   },
   {
     title: "Travel Listings Website",
     description:
-      "A full-stack travel platform showing destination listings, built using modern web technologies.",
+      "A full-stack travel platform showing destination listings, built using modern web technologies. Developed for TripNest Pvt. Ltd., Bangalore.",
+    client: "TripNest Pvt. Ltd., Bangalore",
+    price: "₹10,000",
     image: "/tra.jpg",
     link: "https://fullstack-project-6v90.onrender.com/listings",
   },
   {
     title: "CyberSecure Website",
     description:
-      "A cyber security website providing services, information, and resources on data protection and online safety.",
+      "A cyber security website providing services and information on data protection. Built for TechDefend Solutions, Noida.",
+    client: "TechDefend Solutions, Noida",
+    price: "₹8,700",
     image:
       "https://img.freepik.com/free-photo/cyber-security-concept-digital-art_23-2151637760.jpg?w=740&q=80",
     link: "https://cybersecure-eta.vercel.app/",
@@ -69,23 +87,29 @@ const projects = [
   {
     title: "Rooms Booking Website",
     description:
-      "A modern room booking website for hotels and accommodations with an intuitive UI and smooth user experience.",
+      "A modern room booking website for hotels and accommodations with an intuitive UI. Built for ComfortStay Hotel Group, Jaipur.",
+    client: "ComfortStay Hotel Group, Jaipur",
+    price: "₹7,800",
     image:
-      "data:image/jpeg;base64,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",
+      "https://img.freepik.com/free-photo/hotel-room-with-bed_23-2150398828.jpg?w=740&q=80",
     link: "https://rooms-orpin.vercel.app/",
   },
   {
     title: "Baby Store Website",
     description:
-      "An adorable baby products e-commerce website with a clean layout and smooth shopping flow.",
+      "An adorable baby products e-commerce website built for TinySteps Store, Chennai.",
+    client: "TinySteps Store, Chennai",
+    price: "₹6,500",
     image:
-      "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
+      "https://img.freepik.com/free-photo/baby-products-arrangement-still-life_23-2149655734.jpg?w=740&q=80",
     link: "https://baby-lovat.vercel.app/",
   },
   {
     title: "My Web Portfolio",
     description:
       "A personal portfolio website showcasing web development projects and design work.",
+    client: "Self / Portfolio",
+    price: "₹0 (Personal Project)",
     image:
       "https://img.freepik.com/free-photo/website-design-desktop_23-2147651235.jpg?w=740&q=80",
     link: "https://my-web-beta-umber.vercel.app/",
@@ -116,11 +140,15 @@ const Projects = () => {
               />
             </div>
             <div className="flex flex-col flex-grow p-5 sm:p-6">
-              <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-1">
                 {project.title}
               </h3>
-              <p className="text-sm sm:text-base text-gray-600 flex-grow mb-4">
-                {project.description}
+              <p className="text-sm text-gray-600 mb-2">{project.description}</p>
+              <p className="text-sm text-gray-500 italic mb-1">
+                <strong>Client:</strong> {project.client}
+              </p>
+              <p className="text-sm text-gray-700 font-semibold mb-4">
+                💰 {project.price}
               </p>
               <a
                 href={project.link}
