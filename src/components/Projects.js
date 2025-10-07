@@ -91,7 +91,7 @@ const projects = [
     client: "Faizan Ahmed, Pilibhit (U.P.)",
     price: "₹7,800",
     image:
-      "https://img.freepik.com/free-photo/hotel-room-with-bed_23-2150398828.jpg?w=740&q=80",
+      "https://plus.unsplash.com/premium_photo-1676823553207-758c7a66e9bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9vbXxlbnwwfHwwfHx8MA%3D%3D",
     link: "https://rooms-orpin.vercel.app/",
   },
   {
@@ -101,7 +101,7 @@ const projects = [
     client: "Irfan Malik, Pilibhit (U.P.)",
     price: "₹6,500",
     image:
-      "https://img.freepik.com/free-photo/baby-products-arrangement-still-life_23-2149655734.jpg?w=740&q=80",
+      "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
     link: "https://baby-lovat.vercel.app/",
   },
   {
