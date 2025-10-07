@@ -4,8 +4,8 @@ const projects = [
   {
     title: "Education Website",
     description:
-      "Personal education website built with React & Tailwind CSS for college submission. Built for Jamia Millia Islamia project showcase.",
-    client: "Jamia Millia Islamia",
+      "Personal education website built with React & Tailwind CSS for college submission as part of my diploma project.",
+    client: "Mohammad Ayan, Pilibhit (U.P.)",
     price: "₹0 (College Project)",
     image: "/edu.jpg",
     link: "https://mohd-shamail.github.io/Xm--courseMail",
@@ -13,8 +13,8 @@ const projects = [
   {
     title: "Learnsy Website",
     description:
-      "An e-learning platform offering interactive lessons, quizzes, and course materials for students. Built as a freelancing project for Mr. Rajesh Mehta from Pune.",
-    client: "Rajesh Mehta, Pune",
+      "An e-learning platform offering interactive lessons, quizzes, and course materials for students. Built as a freelancing project for Mr. Rajesh Khan from Pilibhit.",
+    client: "Rajesh Khan, Pilibhit (U.P.)",
     price: "₹9,500",
     image:
       "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
@@ -23,8 +23,8 @@ const projects = [
   {
     title: "Solara Beauty Products",
     description:
-      "A modern beauty e-commerce website showcasing skincare and cosmetics products with clean UI & smooth UX. Developed for Ms. Priya Sharma, Delhi as a freelance project.",
-    client: "Priya Sharma, Delhi",
+      "A modern beauty e-commerce website showcasing skincare and cosmetics products with clean UI & smooth UX. Developed for Ms. Priya Singh, Pilibhit.",
+    client: "Priya Singh, Pilibhit (U.P.)",
     price: "₹8,000",
     image: "/50.jpg",
     link: "https://solara-indol.vercel.app/",
@@ -32,8 +32,8 @@ const projects = [
   {
     title: "Clothing Store",
     description:
-      "An e-commerce clothing website with modern design, product catalog & checkout features. Built for Aman Verma, Mumbai as a freelancer.",
-    client: "Aman Verma, Mumbai",
+      "An e-commerce clothing website with modern design, product catalog & checkout features. Built for Aman Verma from Pilibhit.",
+    client: "Aman Verma, Pilibhit (U.P.)",
     price: "₹7,500",
     image: "/cloth.jpg",
     link: "https://clothing-two-sigma.vercel.app/",
@@ -41,8 +41,8 @@ const projects = [
   {
     title: "Study Abroad Website",
     description:
-      "A website to help students explore overseas study options, courses, and admissions guidance. Created for A2Z Education Consultancy, Hyderabad.",
-    client: "A2Z Education Consultancy, Hyderabad",
+      "A website to help students explore overseas study options, courses, and admissions guidance. Created for Ms. Sana Ali, Pilibhit.",
+    client: "Sana Ali, Pilibhit (U.P.)",
     price: "₹9,000",
     image: "/stu.jpg",
     link: "https://study-web-ashy.vercel.app/",
@@ -50,8 +50,8 @@ const projects = [
   {
     title: "Pizza Website",
     description:
-      "A pizza ordering website showcasing menu, deals, and online ordering. Designed for SliceHub Pizzeria, Lucknow.",
-    client: "SliceHub Pizzeria, Lucknow",
+      "A pizza ordering website showcasing menu, deals, and online ordering. Designed for Sameer Qureshi from Pilibhit.",
+    client: "Sameer Qureshi, Pilibhit (U.P.)",
     price: "₹6,000",
     image: "/pizza.jpg",
     link: "https://pizza-liart-eight.vercel.app/",
@@ -59,8 +59,8 @@ const projects = [
   {
     title: "Traveling Website",
     description:
-      "A travel & tourism website showcasing destinations and booking features. Freelance project for Mr. Arjun Patel, Ahmedabad.",
-    client: "Arjun Patel, Ahmedabad",
+      "A travel & tourism website showcasing destinations and booking features. Freelance project for Arjun Patel, Pilibhit.",
+    client: "Arjun Patel, Pilibhit (U.P.)",
     price: "₹9,800",
     image: "/travel.jpg",
     link: "https://travelling-black.vercel.app/",
@@ -68,8 +68,8 @@ const projects = [
   {
     title: "Travel Listings Website",
     description:
-      "A full-stack travel platform showing destination listings, built using modern web technologies. Developed for TripNest Pvt. Ltd., Bangalore.",
-    client: "TripNest Pvt. Ltd., Bangalore",
+      "A full-stack travel platform showing destination listings, built using modern web technologies. Developed for Deepanshu Sharma, Pilibhit.",
+    client: "Deepanshu Sharma, Pilibhit (U.P.)",
     price: "₹10,000",
     image: "/tra.jpg",
     link: "https://fullstack-project-6v90.onrender.com/listings",
@@ -77,8 +77,8 @@ const projects = [
   {
     title: "CyberSecure Website",
     description:
-      "A cyber security website providing services and information on data protection. Built for TechDefend Solutions, Noida.",
-    client: "TechDefend Solutions, Noida",
+      "A cyber security website providing services and information on data protection. Built for Adnan Husain, Pilibhit.",
+    client: "Adnan Husain, Pilibhit (U.P.)",
     price: "₹8,700",
     image:
       "https://img.freepik.com/free-photo/cyber-security-concept-digital-art_23-2151637760.jpg?w=740&q=80",
@@ -87,8 +87,8 @@ const projects = [
   {
     title: "Rooms Booking Website",
     description:
-      "A modern room booking website for hotels and accommodations with an intuitive UI. Built for ComfortStay Hotel Group, Jaipur.",
-    client: "ComfortStay Hotel Group, Jaipur",
+      "A modern room booking website for hotels and accommodations with an intuitive UI. Built for Faizan Ahmed, Pilibhit.",
+    client: "Faizan Ahmed, Pilibhit (U.P.)",
     price: "₹7,800",
     image:
       "https://img.freepik.com/free-photo/hotel-room-with-bed_23-2150398828.jpg?w=740&q=80",
@@ -97,8 +97,8 @@ const projects = [
   {
     title: "Baby Store Website",
     description:
-      "An adorable baby products e-commerce website built for TinySteps Store, Chennai.",
-    client: "TinySteps Store, Chennai",
+      "An adorable baby products e-commerce website built for Irfan Malik, Pilibhit.",
+    client: "Irfan Malik, Pilibhit (U.P.)",
     price: "₹6,500",
     image:
       "https://img.freepik.com/free-photo/baby-products-arrangement-still-life_23-2149655734.jpg?w=740&q=80",
@@ -108,7 +108,7 @@ const projects = [
     title: "My Web Portfolio",
     description:
       "A personal portfolio website showcasing web development projects and design work.",
-    client: "Self / Portfolio",
+    client: "Self / Personal Project, Pilibhit (U.P.)",
     price: "₹0 (Personal Project)",
     image:
       "https://img.freepik.com/free-photo/website-design-desktop_23-2147651235.jpg?w=740&q=80",
