@@ -1,6 +1,5 @@
 import React from "react";
 
-// Projects array
 const projects = [
   {
     title: "Education Website",
@@ -9,17 +8,17 @@ const projects = [
     link: "https://mohd-shamail.github.io/Xm--courseMail",
   },
   {
-    title: "Addictions of Teenagers",
+    title: "Learnsy Website",
     description:
-      "An educational platform highlighting the impact of digital and substance addictions on adolescents, offering insights and resources for prevention and support.",
-    image: "/add.jpg",
-    link: "https://addictions-of-teenagers.vercel.app/",
+      "An e-learning platform offering interactive lessons, quizzes, and course materials for students.",
+    image: "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
+    link: "https://learnsy-rose.vercel.app/",
   },
   {
     title: "Solara Beauty Products",
     description:
       "A modern beauty e-commerce website showcasing skincare and cosmetics products with clean UI & smooth UX.",
-    image: "/50.jpg", // replace with actual product image or banner
+    image: "/50.jpg",
     link: "https://solara-indol.vercel.app/",
   },
   {
@@ -58,11 +57,37 @@ const projects = [
     link: "https://fullstack-project-6v90.onrender.com/listings",
   },
   {
-  title: "CyberSecure Website",
-  description: "A cyber security website providing services, information, and resources on data protection and online safety.",
-  image: "https://img.freepik.com/free-photo/cyber-security-concept-digital-art_23-2151637760.jpg?semt=ais_hybrid&w=740&q=80",
-  link: "https://cybersecure-eta.vercel.app/"
-},
+    title: "CyberSecure Website",
+    description:
+      "A cyber security website providing services, information, and resources on data protection and online safety.",
+    image:
+      "https://img.freepik.com/free-photo/cyber-security-concept-digital-art_23-2151637760.jpg?w=740&q=80",
+    link: "https://cybersecure-eta.vercel.app/",
+  },
+  {
+    title: "Rooms Booking Website",
+    description:
+      "A modern room booking website for hotels and accommodations with an intuitive UI and smooth user experience.",
+    image:
+      "https://img.freepik.com/free-photo/hotel-room-with-bed_23-2150398828.jpg?w=740&q=80",
+    link: "https://rooms-orpin.vercel.app/",
+  },
+  {
+    title: "Baby Store Website",
+    description:
+      "An adorable baby products e-commerce website with a clean layout and smooth shopping flow.",
+    image:
+      "https://img.freepik.com/free-photo/baby-products-arrangement-still-life_23-2149655734.jpg?w=740&q=80",
+    link: "https://baby-lovat.vercel.app/",
+  },
+  {
+    title: "My Web Portfolio",
+    description:
+      "A personal portfolio website showcasing web development projects and design work.",
+    image:
+      "https://img.freepik.com/free-photo/website-design-desktop_23-2147651235.jpg?w=740&q=80",
+    link: "https://my-web-beta-umber.vercel.app/",
+  },
 ];
 
 const Projects = () => {
@@ -75,18 +100,18 @@ const Projects = () => {
         Projects
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 max-w-7xl w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl w-full">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 transform hover:scale-105 cursor-pointer border-2 border-black"
+            className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 transform hover:scale-105 cursor-pointer border border-gray-300 overflow-hidden"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-45 object-cover rounded-t-xl"
+              className="w-full h-56 sm:h-60 md:h-64 object-cover"
             />
-            <div className="p-4">
+            <div className="p-5">
               <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
                 {project.title}
               </h3>
