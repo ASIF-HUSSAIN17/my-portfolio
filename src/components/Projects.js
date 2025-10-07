@@ -3,7 +3,8 @@ import React from "react";
 const projects = [
   {
     title: "Education Website",
-    description: "Personal education website built with React & Tailwind CSS.",
+    description:
+      "Personal education website built with React & Tailwind CSS.",
     image: "/edu.jpg",
     link: "https://mohd-shamail.github.io/Xm--courseMail",
   },
@@ -11,7 +12,8 @@ const projects = [
     title: "Learnsy Website",
     description:
       "An e-learning platform offering interactive lessons, quizzes, and course materials for students.",
-    image: "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
+    image:
+      "https://img.freepik.com/free-vector/online-courses-tutorials_23-2148527610.jpg?w=740&q=80",
     link: "https://learnsy-rose.vercel.app/",
   },
   {
@@ -94,35 +96,37 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen w-full bg-white flex flex-col items-center justify-center px-6 py-10"
+      className="min-h-screen w-full bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-12 py-12"
     >
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-10 text-gray-800">
-        Projects
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-12 text-center">
+        My Projects
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-7xl w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-full max-w-7xl">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md hover:shadow-xl transition-transform duration-300 transform hover:scale-105 cursor-pointer border border-gray-300 overflow-hidden"
+            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200 overflow-hidden flex flex-col"
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full h-56 sm:h-60 md:h-64 object-cover"
-            />
-            <div className="p-5">
+            <div className="relative w-full h-52 sm:h-56 md:h-60 overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+            <div className="flex flex-col flex-grow p-5 sm:p-6">
               <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
                 {project.title}
               </h3>
-              <p className="text-sm sm:text-base text-gray-600 mb-4">
+              <p className="text-sm sm:text-base text-gray-600 flex-grow mb-4">
                 {project.description}
               </p>
               <a
                 href={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block px-4 py-2 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition"
+                className="inline-block text-center w-full px-5 py-2 sm:py-2.5 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition duration-200"
               >
                 View Project
               </a>
